@@ -6,7 +6,7 @@ import (
 	"github.com/rafael-almeida/monkey-lang/token"
 )
 
-func TextNextToken(t *testing.T) {
+func TestNextToken(t *testing.T) {
 	input := `=+(){},;`
 
 	tests := []struct {
